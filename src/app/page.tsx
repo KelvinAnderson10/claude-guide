@@ -117,7 +117,7 @@ export default function HomePage() {
             <Link
               key={href}
               href={href}
-              className={`group block p-6 rounded-xl border border-border bg-bg-card no-underline transition-all duration-200 hover:-translate-y-1 hover:shadow-xl hover:bg-bg-card-hover ${border} ${highlight ? 'md:col-span-2 xl:col-span-3' : ''}`}
+              className={`relative group block p-6 rounded-xl border border-border bg-bg-card no-underline transition-all duration-200 hover:-translate-y-1 hover:shadow-xl hover:bg-bg-card-hover ${border} ${highlight ? 'md:col-span-2 xl:col-span-3' : ''}`}
             >
               <div className={`absolute inset-0 rounded-xl bg-gradient-to-br ${color} opacity-0 group-hover:opacity-100 transition-opacity duration-200`} />
               <div className="relative">
